@@ -222,6 +222,7 @@ img {
 .faq .faq-group .faq-group-body.open {
     max-height: 100px;
     padding-block: 15px;
+    transition: all 0.5s linear;
 }
 
 .faq ul.faq-menu {
