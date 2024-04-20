@@ -245,14 +245,14 @@ img {
     padding: 10px 20px;
     border-radius: 5px;
     text-align: center;
-    cursor: pointer;
 }
 
 .faq ul.faq-menu li a {
     transition: 0.5s ease;
+    cursor: pointer;
 }
 
-.faq ul.faq-menu li:hover a {
+.faq ul.faq-menu li a:hover {
     color: var(--primary-color);
 }
 
