@@ -208,6 +208,7 @@ img {
     position: absolute;
     right: 0;
     top: 40px;
+    transition: 0.5s ease;
     font-size: 1.3rem;
     cursor: pointer;
 }
@@ -215,11 +216,12 @@ img {
 .faq .faq-group .faq-group-body {
     max-height: 0px;
     overflow: hidden;
-    transition: max-height 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
 }
 
 .faq .faq-group .faq-group-body.open {
     max-height: 100px;
+    padding-block: 15px;
 }
 
 .faq ul.faq-menu {
@@ -259,6 +261,14 @@ img {
 
 .faq ul.faq-menu li.active a {
     color: white;
+}
+
+.icon-default {
+    transform: rotate(0deg);
+}
+
+.icon-rotate {
+    transform: rotate(45deg);
 }
 
 

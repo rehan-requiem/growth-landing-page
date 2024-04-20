@@ -13,8 +13,8 @@ faqContainer.addEventListener("click", (evt) => {
 
     // Toggle icon
 
-    icon.classList.toggle("fa-plus");
-    icon.classList.toggle("fa-minus");
+    icon.classList.toggle("icon-default");
+    icon.classList.toggle("icon-rotate");
 
     // Toggle body visibility
 
@@ -30,8 +30,8 @@ faqContainer.addEventListener("click", (evt) => {
             const otherGroupIcon = otherGroup.querySelector(".faq-group-header i");
 
             otherGroupBody.classList.remove("open")
-            otherGroupIcon.classList.remove("fa-minus");
-            otherGroupIcon.classList.add("fa-plus");
+            otherGroupIcon.classList.remove("icon-rotate");
+            otherGroupIcon.classList.add("icon-default");
         }
     });
 });
